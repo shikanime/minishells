@@ -75,6 +75,8 @@
 
               packages = [
                 pkgs.docker
+                pkgs.kubectl
+                pkgs.kubernetes-helm
                 pkgs.nodejs_24
                 pkgs.pnpm
               ];
