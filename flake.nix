@@ -70,6 +70,15 @@
         with lib;
         {
           devenv.shells = {
+            cloud-pi-native = {
+              containers = mkForce { };
+
+              packages = [
+                pkgs.docker
+                pkgs.nodejs_24
+                pkgs.pnpm
+              ];
+            };
             default.imports = [
               inputs.devlib.devenvModules.git
               inputs.devlib.devenvModules.github
