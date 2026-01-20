@@ -74,6 +74,7 @@
               containers = mkForce { };
 
               packages = [
+                pkgs.age
                 pkgs.ansible
                 pkgs.docker
                 pkgs.gnutar
@@ -83,6 +84,7 @@
                 pkgs.pnpm
                 pkgs.ruby
                 pkgs.uv
+                pkgs.yq
               ];
             };
             default.imports = [
