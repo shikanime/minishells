@@ -74,11 +74,15 @@
               containers = mkForce { };
 
               packages = [
+                pkgs.ansible
                 pkgs.docker
+                pkgs.gnutar
                 pkgs.kubectl
                 pkgs.kubernetes-helm
                 pkgs.nodejs_24
                 pkgs.pnpm
+                pkgs.ruby
+                pkgs.uv
               ];
             };
             default.imports = [
