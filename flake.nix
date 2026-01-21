@@ -74,6 +74,7 @@
               containers = mkForce { };
 
               packages = [
+                pkgs.crc
                 pkgs.age
                 pkgs.ansible
                 pkgs.docker
