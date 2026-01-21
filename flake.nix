@@ -79,6 +79,7 @@
                 pkgs.crc
                 pkgs.docker
                 pkgs.gnutar
+                pkgs.kind
                 pkgs.kubectl
                 pkgs.kubernetes-helm
                 pkgs.nodejs_24
