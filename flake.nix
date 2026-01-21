@@ -74,9 +74,9 @@
               containers = mkForce { };
 
               packages = [
-                pkgs.crc
                 pkgs.age
                 pkgs.ansible
+                pkgs.crc
                 pkgs.docker
                 pkgs.gnutar
                 pkgs.kubectl
@@ -84,6 +84,7 @@
                 pkgs.nodejs_24
                 pkgs.pnpm
                 pkgs.ruby
+                pkgs.teleport
                 pkgs.uv
                 pkgs.yq
               ];
